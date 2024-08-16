@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "http://localhost:3000") // Adjust for production as needed
+// @CrossOrigin(origins = "http://localhost:3000") // Adjust for production as needed
 public class UserController {
 
     @Autowired
