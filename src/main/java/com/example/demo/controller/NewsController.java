@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/news")
-@CrossOrigin(origins = "http://localhost:3000") // Adjust based on your React app's URL
+// @CrossOrigin(origins = "http://localhost:3000") // Adjust based on your React app's URL
 public class NewsController {
     
     @Autowired
